@@ -1,0 +1,32 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;}
+
+.parent {
+    width:100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;}
+
+a:link {
+    background-color: rgb(129, 188, 130);
+    color: aliceblue;
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;}
+
+a:hover { 
+    background-color: rgb(188, 188, 188);
+    color: black;
+    }
+
+a:visited {
+    color: rgb(2, 62, 2);}
+
+html {
+    scroll-behavior: smooth;
+}
+

@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;}
+  
+  html {
+    font-size: calc(15px + 0.390625vw);
+    line-height: 120%;
+    scroll-behavior: smooth;}
+  
+  body {
+    margin: 0;}
+  
+  nav {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 2rem;
+    width:50%;
+    background-color: #fff;
+    padding: 1rem 1rem;
+    z-index: 99;
+    text-align: right }
+  
+  nav a:link {
+    padding: 0 .3rem 0 0;
+    font-size: .8rem;
+    color: #b06f00;}
+    
+  
+  nav a:visited {
+    color: #00a30b;}
+  
+  nav a:hover {
+    color: #f4ff2c;}
+  
+  .sticker-container {
+    display:flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 2rem ;
+    padding-top: 3rem;}
+  
+  .stickme {
+    position: sticky;
+    top:3rem;
+    flex:2;}
+  
+  hgroup {
+    padding: 2rem;
+    text-align: right;}
+  
+  h1 {
+    font-size: 4.2rem;
+    margin: 0;
+    line-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00a30b;}
+  
+  article {
+    font-size: 1rem;
+    flex:1;
+    z-index: 100;}
+    
+  @media  (max-width:800px) {
+    .sticker-container {
+      display:block;
+      margin: 2rem;
+      flex-direction: row;}
+    .stickme {
+      position:relative;
+      padding: 0;
+      top:0;}
+  
+    h1, h2 {
+      text-align: left;
+      padding: 0;}
+  
+    h1{font-size: 4rem;}
+    nav {width:100%; left:0; text-align: left;}
+    header {padding-top:0.5rem}}
